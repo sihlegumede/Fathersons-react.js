@@ -1,0 +1,44 @@
+.offcanvas_accordion{
+    margin:0;
+    padding:0;
+}
+.accordion_accordion{
+    padding: 0;
+    margin: 0;
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+#panel1-header,
+#panel2-header,
+#panel3-header,
+#panel4-header,
+#panel5-header,
+#panel6-header,
+#panel7-header,
+#panel8-header{
+    background-color: rgb(23, 23, 23);
+}
+.accordion_header{
+    background-color: rgb(23, 23, 23);
+    color: gray;
+}
+.accordion_details{
+    background-color: rgb(23, 23, 23);
+}
+.accordion_body{
+    background-color: rgb(23, 23, 23);
+    color: gray;
+}
+.accordion_body li{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+}
+.accordion_body li a{
+    text-decoration: none;
+    color: gray;
+}
+.accordion_body li a:hover{
+    text-decoration: underline;
+    color: rgb(169, 169, 169);
+}

@@ -1,0 +1,88 @@
+.header{
+    max-width: 100%;
+}
+.ticker{
+    background-color: #fff;
+
+    max-width: 100%;
+
+    overflow: hidden;
+}
+.ticker ul{
+    width: 100%;
+
+    margin: 0;
+
+    background-color: #fff;
+    
+    display: flex;
+    align-items: center;
+
+    animation: scroll 15s infinite linear;
+}
+.ticker li{
+    background-color: #fff;
+    color: black;
+    font-size: 0.8rem;
+}
+@keyframes scroll {
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-320px);
+    }
+}
+
+/* carousal */
+
+.carousel{
+    max-width: 100%;
+    height: auto;
+}
+.carousel_item{
+    width: 100%;
+}
+.carousel_item img{
+    width: 100%;
+}
+.carousel_item_caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.carousel_item_caption button{
+    background-color: #fff;
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+
+    padding: 1rem;
+
+    border: none;
+    border-style: none;
+}
+
+@media only screen and (max-width: 658px){
+    .ticker li{
+        font-size: 0.6rem;
+    }
+    .carousel_item_caption{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .carousel_item_caption h7{
+        font-size:0.6rem;
+    }
+    .carousel_item_caption h4{
+        font-size:0.8rem;
+    }
+    .carousel_item_caption button{
+        font-size: 0.6rem;
+
+        padding: 0.6rem;
+    }
+}

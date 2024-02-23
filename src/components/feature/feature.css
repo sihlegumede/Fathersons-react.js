@@ -1,0 +1,109 @@
+.feature{
+    width: 100%;
+}
+
+.feature_super-slim-shirts{
+    background: rgba(0,0,0,0.7) url(./images/super-slim-image_6dbb02e9-b27c-4b3d-9a30-e80d064d96e8_1200x1800.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken;
+}
+.feature_polo-shirts{
+    background: rgba(0,0,0,0.7) url(./images/image_55e3ef82-166e-4e13-a3d0-3919552cdba6_1205x1800.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken;
+}
+.feature_jumpers-and-cardigans{
+    background: rgba(0,0,0,0.7) url(./images/Jumpers-WHC04065_800x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken;
+}
+.feature_leather-jackets{
+    background: rgba(0,0,0,0.7) url(./images/Leather-jacket-image_354fb76b-a7ba-41d2-a454-b18c01a6ed47_600x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken;
+}
+.feature_tracksuits{
+    background: rgba(0,0,0,0.7) url(./images/Tracksuit-image_daa14f57-d9cb-40e1-a3c5-3bf7984eaab7_800x.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken;
+}
+.feature_trousers{
+    background: rgba(0,0,0,0.7) url(./images/image_580c0153-27ed-4630-80b5-5a458b7af172_1214x1800.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-blend-mode: darken;
+}
+.feature_grid{
+    padding: 6rem;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px, auto));
+    gap:3rem
+}
+.feature_card_body{
+    padding-top: 30rem;
+    margin: 1rem;
+}
+.feature_card_title{
+    color: #fff;
+    font-size: 1rem;
+}
+.feature button{
+    background-color: #fff;
+    color: black;
+    font-size: 0.8rem;
+    text-align: center;
+
+    padding: 1rem;
+
+    border: none;
+    border-style: none;
+}
+.feature button:hover{
+    background-color: #ffffffb2;
+
+}
+@media only screen and (max-width: 426px) {
+    .feature_grid{
+        padding: 2rem;
+    }
+    .feature_cards{
+        width: 100%;
+    }
+    .feature_card_body{
+        padding-top: 20rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 426px) {
+    .feature_grid{
+        padding: 1rem;
+    }
+    .feature_cards{
+        width: 80%;
+    }
+    .feature_card_body{
+        padding-top: 20rem;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

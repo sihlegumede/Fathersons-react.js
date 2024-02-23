@@ -1,0 +1,61 @@
+.fatherson_navbar{
+    width: 100%;
+
+    /* position: fixed;
+    z-index: 100; */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 4rem 2rem 0 ;
+
+    background-color: black;
+    color: gold;
+}
+.fathersons_navbar_menu-icon{
+    font-size: 2rem;
+}
+.fathersons_navbar_menu-icon:hover{
+    cursor: pointer;
+}
+.fathersons_navbar_logo{
+    width: 4rem;
+}
+.fathersons_navbar_logo img{
+    width: 100%;
+}
+.fathersons_navbar_search{
+    font-size: 1.8rem;
+}
+.fathersons_navbar_search{
+    cursor: pointer;
+}
+.fathersons_navbar_offcanvas{
+    background-color: rgb(23, 23, 23);
+}
+.fathersons_navbar_body{
+    background-color: rgb(23, 23, 23);
+    padding: 0;
+    margin: 0;
+}
+.fathersons_navbar_header{
+    background-color: rgb(23, 23, 23);
+    padding: 0;
+    margin: 0;
+}
+
+@media only screen and (max-width: 426px) {
+    .fathersons_navbar_menu-icon{
+        font-size: 1.4rem;
+    }
+    .fathersons_navbar_logo{
+        width: 2rem;
+    }
+    .fathersons_navbar_logo img{
+        width: 100%;
+    }
+    .fathersons_navbar_search{
+        font-size: 1.4rem;
+    }
+}
